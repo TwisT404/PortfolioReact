@@ -6,10 +6,8 @@ function App() {
 
   return (
     <>
-    <main>
         <NavBar />
-        <Outlet />
-    </main>    
+        <Outlet />   
     </>
   );
 }

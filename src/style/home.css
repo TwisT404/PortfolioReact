@@ -1,0 +1,147 @@
+.hero {
+    min-height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 5rem 3rem;
+
+    background: var(--background);
+}
+
+.hero-location {
+    color: var(--primary);
+
+    font-size: 0.60rem;
+    letter-spacing: .35em;
+    text-transform: uppercase;
+
+    margin-bottom: 3rem;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Playfair Display", serif;
+    font-weight: var(--font-weight-bold);
+
+    line-height: .82;
+
+    margin-bottom: 4rem;
+}
+
+.hero-title span:first-child {
+    font-size: clamp(3rem, 12vw, 10rem);
+    color: var(--foreground);
+}
+
+.hero-title .gradient {
+    font-size: clamp(3rem, 12vw, 10rem);
+
+    background: linear-gradient(
+        90deg,
+        #C4B5FD 0%,
+        var(--primary) 60%,
+        #8B5CF6 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    border-top: 1px solid var(--border);
+
+    padding-top: 2.5rem;
+}
+
+.hero-description {
+    max-width: 420px;
+    width: 100%;
+}
+
+.hero-description p {
+    color: var(--muted-foreground);
+
+    line-height: 1.8;
+    font-size: 1rem;
+
+    margin-bottom: 3rem;
+}
+
+.hero-status {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+
+    color: var(--muted-foreground);
+
+    font-size: .72rem;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #10b956;
+
+    box-shadow: 0 0 12px #10b981;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.hero-actions a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+
+    font-size: .8rem;
+
+    padding: 1rem 2.5rem;
+
+    transition: .3s;
+}
+
+.btn-primary {
+
+    background: var(--primary);
+    color: var(--primary-foreground);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+
+    filter: brightness(1.1);
+}
+
+.btn-secondary {
+
+    color: var(--foreground);
+
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background: var(--card);
+
+    border-color: var(--primary);
+}
