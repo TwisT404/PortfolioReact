@@ -13,6 +13,10 @@ function Home() {
               <span>CEDRIC</span>
               <span className="gradient">TANGHE</span>
           </h1>
+        <div className="porfolio-status">
+            <span className="dot"></span>
+            Recherche d'alternance — 24 mois
+        </div>
 
           <div className="porfolio-bottom">
 
@@ -35,10 +39,6 @@ function Home() {
 
 
           </div>
-            <div className="porfolio-status">
-                <span className="dot"></span>
-                Recherche d'alternance — 24 mois
-            </div>
       </section>
   
     </>
