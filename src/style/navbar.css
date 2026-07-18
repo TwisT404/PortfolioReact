@@ -50,6 +50,7 @@
   letter-spacing: 0.18em;
 
   transition: color 0.3s ease;
+  font-family:  "Roboto", sans-serif; 
 }
 
 .navbar-links a:hover {
