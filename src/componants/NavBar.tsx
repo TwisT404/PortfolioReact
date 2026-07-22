@@ -1,6 +1,6 @@
 import { useState,  useEffect } from "react";
 import logo from "../assets/Logo.jpg";
-import "../style/navbar.css";   
+import "../styles/navbar.css";   
 import { FaMoon, FaSun  } from "react-icons/fa";
 import Hamburger from "./Hamburger";
 
@@ -18,7 +18,8 @@ function NavBar() {
         </a>
 
         <nav className="navbar-links">
-            <a href="/tools">Outils</a>
+            <a href="/About">À propos</a>
+            <a href="/Tools">Outils</a>
             <a href="/projects">Projets</a>
             <a href="/contact">Contact</a>
             <button className="dark-mode-toggle" onClick={() => setDark(!dark)}>
@@ -35,6 +36,7 @@ function NavBar() {
         <nav className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
             <ul>
                 <li><a href="/ ">Home</a></li>
+                <li><a href="/about">À propos</a></li>
                 <li><a href="/tools">Outils</a></li>
                 <li><a href="/projects">Projets</a></li>
                 <li><a href="/contact">Contact</a></li>

@@ -1,4 +1,4 @@
-import "./../style/hamburger.css"
+import "./../styles/hamburger.css"
 export default function Hamburger({ onClick, open }: { onClick: () => void; open: boolean }) {
     return (
         <div
