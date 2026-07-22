@@ -1,0 +1,121 @@
+.contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 6rem 3rem;
+
+    background: var(--background);
+}
+
+.contact-subtitle {
+    color: var(--primary);
+
+    font-size: .72rem;
+    font-weight: var(--font-weight-medium);
+
+    letter-spacing: .35em;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+}
+
+.contact-title {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2rem, 5vw, 6rem);
+    font-weight: 600;
+    line-height: .95;
+
+    color: var(--foreground);
+
+    margin-bottom: 3rem;
+}
+
+.contact-description {
+    max-width: 480px;
+
+    color: var(--muted-foreground);
+
+    font-size: 1rem;
+    line-height: 1.9;
+
+    margin-bottom: 4rem;
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    margin-bottom: 3rem;
+}
+
+.contact-actions a {
+    text-decoration: none;
+    width: 100%;
+    max-width: 250px;
+    min-width: 150px;
+    padding: 1rem 1rem 1rem 1rem;
+
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-size: .8rem;
+    font-weight: var(--font-weight-medium);
+
+    transition: .3s ease;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--primary-foreground);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
+}
+
+.btn-secondary {
+    background: transparent;
+
+    color: var(--foreground);
+
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background: var(--card);
+    border-color: var(--primary);
+}
+
+.contact-status {
+    display: inline-flex;
+    align-items: center;
+    gap: .8rem;
+
+    width: fit-content;
+
+    padding: .8rem 1.25rem;
+
+    border: 1px solid rgba(16, 185, 129, .35);
+
+    background: rgba(16, 185, 129, .04);
+
+    color: #10B981;
+
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-size: .72rem;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #10B981;
+
+    box-shadow: 0 0 10px #10B981;
+}
