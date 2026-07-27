@@ -1,0 +1,130 @@
+.projects {
+    padding: 5rem 3rem;
+    background: var(--background);
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 4rem;
+
+    color: var(--primary);
+
+    text-transform: uppercase;
+    letter-spacing: .28em;
+    font-size: .72rem;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    padding: 2rem 2rem 2rem 2rem;
+
+    border-top: 1px solid var(--border);
+
+    transition: .35s ease;
+}
+
+
+
+.project:hover {
+    background: rgba(255,255,255,.015);
+}
+
+.project:first-of-type {
+    border-top: none;
+}
+.project div {
+    flex: 1 1 0;
+}
+
+.project-number {
+    color: var(--muted-foreground);
+
+    font-size: .8rem;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+.project-title h2 {
+    margin-bottom: .4rem;
+    text-align: center;
+
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2rem,3vw,3rem);
+
+    color: var(--foreground);
+}
+
+.project-title span {
+    color: var(--primary);
+
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75rem;
+}
+
+
+.project-description p {
+    max-width: 560px;
+    /* text-align: center; */
+
+    color: var(--muted-foreground);
+
+    line-height: 1.8;
+
+    margin-bottom: 1rem;
+}
+
+.project-category {
+    color: var(--muted-foreground);
+
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75rem;
+
+    align-self: center;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.project-tags span {
+    padding: .35rem .7rem;
+
+    border: 1px solid currentColor;
+
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: .65rem;
+}
+
+.purple-tools{
+    color:var(--primary);
+    background:rgba(167,139,250,.08);
+}
+
+
+@media (max-width: 560px){
+    .project{
+        flex-direction: column;
+        padding: 2rem 0 2rem 0 ;
+    }
+
+    .project-description p {
+        text-align: center;
+    }
+
+    .project-tags{
+        justify-content: center;
+    }
+}

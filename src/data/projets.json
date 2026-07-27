@@ -1,0 +1,51 @@
+{
+  "projets": [
+    {
+      "nom": "Earth Beyond",
+      "description": "Expérience ludique et divertissante sous forme de site",
+      "Outils": [
+        "HTML",
+        "CSS",
+        "ThreeJS",
+        "Figma"
+      ],
+      "type": "École"
+    },
+    {
+      "nom": "DeckOuverte",
+      "description": "Jeu Mobile basé sur un système de carte",
+      "Outils": [
+        "React Native",
+        "PHP",
+        "SQL",
+        "Figma"
+      ],
+      "type": "École"
+    },
+    {
+      "nom": "FoueeExpress",
+      "description": "Site Web Marchand Responsive",
+      "Outils": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "SQL",
+        "Figma"
+      ],
+      "type": "École"
+    },
+    {
+      "nom": "BeeAuTop",
+      "description": "Site Web Responsive",
+      "Outils": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "SQL"
+      ],
+      "type": "École"
+    }
+  ]
+}
