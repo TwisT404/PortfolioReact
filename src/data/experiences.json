@@ -1,0 +1,62 @@
+{
+  "experiences_professionnelles": [
+    {
+      "type" : "Apprentissage",
+      "entreprise": "RTE - Réseau de Transport d'Électricité",
+      "lieu": "Saint Denis",
+      "pays": "Fr",
+      "poste": "Développeur Réseau en Apprentissage",
+      "periode": {
+        "debut": "Septembre 2025",
+        "fin": null
+      },
+      "missions": [
+        "Améliorations d'outils",
+        "Apport de soutien sur l'expérience métier"
+      ]
+    },
+    {
+      "type" : "Apprentissage",
+      "entreprise": "RTE - Réseau de Transport d'Électricité",
+      "lieu": "Saint Denis",
+      "pays": "Fr",
+      "poste": "Analyse et Modélisation Donnée",
+      "periode": {
+        "debut": "Mars 2025",
+        "fin": "Juin 2025"
+      },
+      "missions": [
+        "Mise en place d'un système automatisé de création de tableau de bord",
+        "Mise en place d'un outil de comparaison"
+      ]
+    },
+    {
+      "type" : "Stage",
+      "entreprise": "Wooster",
+      "lieu": "Paris",
+      "pays": "Fr",
+      "poste": "Stage Développeur PHP/WordPress",
+      "periode": {
+        "debut": "Février 2024",
+        "fin": "Avril 2024"
+      },
+      "missions": [
+        "Création d'outils pour le développement de l'entreprise"
+      ]
+    },
+    {
+      "type" : "Job d'été",
+      "entreprise": "Pro BTP",
+      "lieu": "Paris",
+      "pays": "Fr",
+      "poste": "Emploi Saisonnier",
+      "periode": {
+        "debut": "Février 2024",
+        "fin": "Avril 2024"
+      },
+      "missions": [
+        "Archivage de documents"
+      ]
+    }
+  ]
+}
